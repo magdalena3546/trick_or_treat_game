@@ -6,8 +6,8 @@ class Monster(pg.sprite.Sprite):
         self.speed = 15
         self.name = user_name
         self.image = pg.image.load("images/va.png").convert_alpha()
-        self.width = self.image.get_width()
-        self.height = self.image.get_height()
+        # self.width = self.image.get_width()
+        # self.height = self.image.get_height()
         self.rect = self.image.get_rect()
         self.rect.x = 100
         self.rect.y = 250
